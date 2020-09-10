@@ -1,0 +1,23 @@
+{
+  "name": "sava90/user",
+  "description": "User for demo",
+  "authors": [
+    {
+      "name": "Vitaliy Savchuk",
+      "email": "savchuk.vitaliy90@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "classmap": ["app/"],
+    "psr-4": {
+      "Base\\": "app/Base",
+      "Controller\\": "app/Controller",
+      "Model\\": "app/Model",
+      "Service\\": "app/Service",
+      "\\": "app/"
+    }
+  }
+}
